@@ -110,6 +110,7 @@ xcuserdata
 # CMake build artifacts
 CMakeFiles/
 CMakeCache.txt
+cmake_install.cmake
 
 # Extra build directories
 Builds/Release/
