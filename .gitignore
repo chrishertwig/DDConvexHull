@@ -11,6 +11,9 @@
 *.intermediate.manifest
 *.log
 *.ipch
+*.vcxproj
+*.vcxproj.filters
+*.sln
 
 *.cache
 *.idb
@@ -103,3 +106,13 @@ xcuserdata
 # We're using source-control, so this is a "feature" that we do not want!
 
 *.moved-aside
+
+# CMake build artifacts
+CMakeFiles/
+CMakeCache.txt
+
+# Extra build directories
+Builds/Release/
+Builds/Debug/
+Builds/x64/
+Builds/DDConvexHull.dir/
